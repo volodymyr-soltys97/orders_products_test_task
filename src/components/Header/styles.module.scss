@@ -1,0 +1,26 @@
+.container {
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: -5px 5px 36px 1px rgba(0,0,0,0.4);
+    padding: 0 50px;
+}
+
+.logoSearchContainer {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+    .search {
+        height: 20px;
+    }
+}
+
+.timeContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
